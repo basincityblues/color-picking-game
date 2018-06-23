@@ -27,6 +27,7 @@ for(let i = 0; i < squares.length; i++){
   });
 };
 
+// Function changes each color to match given color after the correct color is selected in the game.
 function changeColors(color){
   // loop through all squares
   for(let i = 0; i < squares.length; i++){
