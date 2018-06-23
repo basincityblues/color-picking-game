@@ -35,11 +35,13 @@ function changeColors(color){
   };
 };
 
+// Function picks a random index of the colors array 
 function pickColor(){
   const random = Math.floor(Math.random() * colors.length);
   return colors[random];
 };
 
+// Function generates an array of random colors for any argument, in number type, provided.
 function generateRandomColors(num){
   // make an array
   const arr = [];
@@ -52,10 +54,12 @@ function generateRandomColors(num){
   return arr;
 };
 
+
+// Function generates random colors in rgb parameter format
 function randomColor(){
   // pick a 'red' from 0 to 255
   const r = Math.floor(Math.random() * 256);
-  // pikc a 'green' from 0 to 255
+  // pick a 'green' from 0 to 255
   const g = Math.floor(Math.random() * 256);
   // pick a 'blue'
   const b = Math.floor(Math.random() * 256);
