@@ -5,6 +5,7 @@ const pickedColor = pickColor();
 const colorDisplay = document.querySelector('#colorDisplay');
 const messageDisplay = document.querySelector('#message');
 const h1 = document.querySelector('h1');
+const resetButton = document.querySelector('#reset');
 
 colorDisplay.textContent = pickedColor;
 
